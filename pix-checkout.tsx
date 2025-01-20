@@ -10,7 +10,7 @@ export default function PixCheckout() {
   const [copied, setCopied] = useState(false)
   const [timeLeft, setTimeLeft] = useState(300) // 5 minutes in seconds
 
-  const pixCode = "00020101021226830014br.gov.bcb.pix2..."
+  const pixCode = "00020126500014BR.GOV.BCB.PIX0128erickgabrieldpi611@gmail.com5204000053039865406117.005802BR5905Erick6009Sao Paulo62120508Ingresso6304866D"
 
   useEffect(() => {
     if (timeLeft > 0) {
@@ -47,7 +47,7 @@ export default function PixCheckout() {
               <img src="/placeholder.svg?height=200&width=200" alt="QR Code PIX" className="w-48 h-48" />
             </div>
 
-            <p className="text-2xl font-bold text-center">R$ 49,50</p>
+            <p className="text-2xl font-bold text-center">R$ 170,00</p>
           </div>
 
           <div className="space-y-4">
